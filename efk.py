@@ -6,10 +6,10 @@ try:
 except IOError:
     os.system("pip2 install requests")
     os.system("pip2 install mechanize")
-    os.system("python2 infect.xo")
+    os.system("python2 efk.py")
 
 try:
-    os.mkdir("/sdcard/infect-tool")
+    os.mkdir("/sdcard/it's efk 2 best")
 except OSError:
     pass
 
